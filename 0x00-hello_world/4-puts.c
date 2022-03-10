@@ -1,7 +1,7 @@
-#imclude <stdio.h>
+#include <stdio.h>
 
 /**
-* main - prints the sentence "Programming is like building a multilingual puzzle
+* main - prints the phrase "Programming is like building a multilingual puzzle
 * Return: 0
 */
 int main(void)
