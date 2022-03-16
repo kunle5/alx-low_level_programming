@@ -22,7 +22,7 @@ int main(void)
 		}
 	else if ((i % 5) == 0)
 	{
-		sum 1 += i;
+		sum1 += i;
 	}
 	}
 	sum3 = sum1 + sum2;
