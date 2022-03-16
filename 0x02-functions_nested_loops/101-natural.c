@@ -20,9 +20,13 @@ int main(void)
 		{
 			sum2 += i;
 		}
+	else if ((i % 5) == 0)
+	{
+		sum 1 += i;
 	}
-	sum3 = sum1 + sum2
-		printf("%d\n", sum3);
+	}
+	sum3 = sum1 + sum2;
+	printf("%lu\n", sum3);
 	return (0);
 }
 
