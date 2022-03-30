@@ -18,7 +18,7 @@ int _strlen_recursion(char *s)
 /**
  * p1 - palindrome
  * @s: pointer to string
- * @1: position
+ * @l: position
  * Return: boolean
  */
 
@@ -31,7 +31,7 @@ int p1(char *s, int l)
 
 	if (*s == *(s + 1))
 	{
-		return (p1(s + 1, 1 - 2));
+		return (p1(s + 1, l - 2));
 	}
 	return (0);
 }
