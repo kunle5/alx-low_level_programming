@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoi - conb=verts a string to an int
+ * _atoi - converts a string to an int
  * @s: variable
  * Return: the int from the string
  */
