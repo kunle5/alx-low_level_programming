@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * ch_free_grid -
+ * ch_free_grid - frees a 2D array
  * @grid: mullti-dimensional array of char
  * @height: height of the array
  * Return: nothing
@@ -50,7 +50,7 @@ char **strtow(char *str)
 			if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			{
 				aout[i] = malloc((c - a1 + 2) * sizeof(char));
-						if (aout[i] == NULL)
+				if (aout[i] == NULL)
 						{
 							ch_free_grid(aout, i);
 							return (NULL);
